@@ -373,8 +373,9 @@ public class SimulationService {
 
         SimulationSession simulationSession = simulationSessionRepository.findById(sessionId)
                 .orElseThrow(() -> new IllegalArgumentException("Session not found"));
-
+        log.info("simulationSession : {}", simulationSession.getId());
         int nextTurn = turn + 1;
+        UserInfo userinfo = simulationSession.getUser();
 
         if (turn < 9) {
             // 요청 데이터 세팅
@@ -386,10 +387,13 @@ public class SimulationService {
 
             com.news.newsdata.simulation.req.UserInfo userInfo = new com.news.newsdata.simulation.req.UserInfo();
             // 유저 이름
-            Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+/*            Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+            log.info("authentication : {}", authentication);
             if (authentication != null && authentication.getPrincipal() instanceof UserDetailsImpl userDetails) {
+                log.info("userDetails : {}", userDetails.getUser().getName());
                 userInfo.setUser_name(userDetails.getUser().getName());
-            }
+            }*/
+            userInfo.setUser_name(userinfo.getName());
             apiRequestDto.setUser_info(userInfo);
 
             // 전체 질문 조회
