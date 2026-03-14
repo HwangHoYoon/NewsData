@@ -58,7 +58,7 @@
 <div align="center">
 <img src="https://github.com/user-attachments/assets/85498fef-1fec-4207-8ae5-4957cb40e083"><br>
 </div>
-2. 금융 사기 시뮬레이션(음)<br><br>
+2. 금융 사기 시뮬레이션(대화)<br><br>
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/fbdbf2bd-6bfd-47d5-bdaa-d5d0b1946a86"><br>
