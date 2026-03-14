@@ -51,16 +51,16 @@
 
 ## 📌 주요기능
 <div align="center">
-<img src="https://github.com/user-attachments/assets/8aa2f5b8-f457-4e83-bdda-c7c86bdae78f"><br>
+<img src="https://github.com/user-attachments/assets/eca70501-3369-40af-8bc6-e2fe01b87c55"><br>
 </div>
-1. 입시 질문하기<br><br>
+1. 금융 사기 시뮬레이션(채팅)<br><br>
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/4b095bef-6bb0-4451-b01c-0a0885ebd697"><br>
+<img src="https://github.com/user-attachments/assets/85498fef-1fec-4207-8ae5-4957cb40e083"><br>
 </div>
-2. 맞춤 학습 계획<br><br>
+2. 금융 사기 시뮬레이션(음)<br><br>
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/3a1810f5-b7ef-497b-9b28-89e40632c5d6"><br>
+<img src="https://github.com/user-attachments/assets/fbdbf2bd-6bfd-47d5-bdaa-d5d0b1946a86"><br>
 </div>
-3. 입시 소식<br><br>
+3. 이미지 분석<br><br>
